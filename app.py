@@ -1,4 +1,4 @@
-from flask import render_template, Flask, request
+from flask import render_template, Flask, request, current_app
 
 app = Flask(__name__, template_folder="templates")
 
@@ -16,7 +16,8 @@ def print_name(name):
 @app.route('/save_name', methods=['PUT'])
 def save_name():
     body = request.get_json(silent=True)
-    return 'Hello ' + body["name"] + '!!!'
+    response = 'Hello ' + body["name"] + '!!!'
+    return response
 
 
 if __name__ == '__main__':
