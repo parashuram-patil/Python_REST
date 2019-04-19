@@ -22,4 +22,15 @@ REST APIs using Python
 
 ## Implentations Avaiable
 - Simple Root Endpoint
-- UI Template using render_template  
+- UI Template using render_template
+- GET, PUT, POST Implementation
+- Custom headers and status codes
+
+
+
+## Contact
+
+### Parashuram S. Patil
+Email    : _parasharam_patil@ymail.com_ <>
+LinkedIn : _[Parashuram Patil](https://www.linkedin.com/in/parashuram-patil-aa0b6288/)_ <>
+GitHub   : _[parashuram-patil](https://github.com/parashuram-patil)_ 
